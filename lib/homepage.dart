@@ -89,7 +89,7 @@ class Homepage extends StatelessWidget {
                         SizedBox(width: 30),
                         ElevatedButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, '/profilelist');
+                            Navigator.pushNamed(context, '/login');
                           },
                           style: ElevatedButton.styleFrom(
                             iconColor: Colors.white,

@@ -35,7 +35,7 @@ class _RegistrationFormPageState extends State<RegistrationFormPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Registration Form")),
+      appBar: AppBar(title: Text("Add New Job")),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: ListView(
